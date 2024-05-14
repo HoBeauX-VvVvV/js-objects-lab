@@ -132,3 +132,17 @@ Solve Exercise 9 here:
 game.party.forEach((poke) => {
   console.log(poke.name);
 });
+
+/*
+Exercise 10
+1. Can you print out all the starter Pokémon from the `pokemon` array?
+2. Think about how you can identify a starter Pokémon and then log their 
+names.
+Solve Exercise 10 here:
+*/
+
+pokemon.forEach((mon) => {
+  if (mon.starter === 'true') {
+    console.log(mon);
+  }
+});
