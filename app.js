@@ -36,9 +36,34 @@ console.log(game.difficulty)
 
 /*
 Exercise 4
-1. Select a starter Pokémon from the `pokemon` array. Remember, a starter Pokémon's `starter` property is true.
-2. Add this Pokémon to the `game.party` array. Which array method will you use to add them?
+1. Select a starter Pokémon from the `pokemon` array. Remember, a starter 
+Pokémon's `starter` property is true.
+2. Add this Pokémon to the `game.party` array. Which array method will you 
+use to add them?
 Solve Exercise 4 here:
 */
 game.party.push(pokemon[6]);
 console.log(game.party);
+
+/*
+Exercise 5
+1. Choose three more Pokémon from the `pokemon` array and add them to your 
+party.
+2. Consider different attributes like 'type' or 'HP' for your selection. 
+Which array method will you use to add them?
+Solve Exercise 5 here:
+*/
+
+game.party.push(pokemon[44]);
+game.party.push(pokemon[62]);
+game.party.push(pokemon[87]);
+console.log(game.party);
+
+/*
+Exercise 6
+1. Arrange the Pokémon in `game.party` by their HP. The one with the highest 
+HP should come first.
+2. You'll need to use the `.sort()` method. How does the compare function 
+work in sorting numbers?
+Solve Exercise 6 here:
+*/
