@@ -67,3 +67,11 @@ HP should come first.
 work in sorting numbers?
 Solve Exercise 6 here:
 */
+
+game.party.sort((a, b) => {
+  return b.hp - a.hp  
+});
+console.log(game.party);
+
+//It took me over 30 min to get the syntax for
+// this correct, I just wanted someone to know.
