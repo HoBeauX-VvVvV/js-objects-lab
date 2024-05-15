@@ -182,3 +182,13 @@ Also, log the `game.items` array to confirm that the pokeball quantity is
 being decremented.
 Solve Exercise 12 here:
 */
+
+game.catchPokemon = (pokemonObj) => {
+  game.party.push(pokemonObj);
+  game.items[1].quantity -= 1;
+};
+
+game.catchPokemon(pokemon[58]);
+
+console.log(game.party);
+console.log(game.items[1]);
